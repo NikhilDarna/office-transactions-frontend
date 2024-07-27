@@ -1,0 +1,34 @@
+/* styles.css */
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+    padding: 20px; /* Optional padding */
+  }
+  
+  .table-container {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 1000px; /* Optional: max width for large screens */
+  }
+  
+  .modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* styles.css */
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-container th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
